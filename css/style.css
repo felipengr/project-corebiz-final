@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+header {
+    background-color: white;
+    height: 80px;
+    width: 100%;
+    display: flex;
+    color: #7a7a7a;
+}
+.cabecalho{
+    height: 80px;
+    width: 90%;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-items: center;
+}
+.logo{
+    width: 25%;
+}
+.logo img{
+    width: 60%;
+}
+.search {
+    width: 50%;
+    border-bottom: 1px solid #7a7a7a;
+}
+.user {
+    width: 25%;
+}
+.procurando{
+    border: none;
+}
+.lupa {
+    border: none;
+    background-color: #fff;
+    width: 18px;
+    height: 18px;
+    top: 28px;
+}
+.banner img {
+    width: 100%;
+}
